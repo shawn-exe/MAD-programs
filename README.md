@@ -1,6 +1,9 @@
 # Mobile App Development (MAD) Programs Repository
 
-Welcome to the Mobile App Development (MAD) Programs Repository! 🚀 This repository contains a collection of Part A programs for the Mobile App Development course. 
+Welcome to the Mobile App Development (MAD) Programs Repository! 🚀 This repository contains a collection of Part A programs for the Mobile App Development course.
+
+
+Feel free to reach out to [Arshad Bhai🧑🏽‍💻](https://github.com/Arshad59) for any specific questions or clarifications. If you have any suggestions or improvements for this repository, don't hesitate to contribute.📱💻
 ## Getting Started
 
 To execute these programs in Android Studio, follow these steps:
@@ -31,6 +34,5 @@ To execute these programs in Android Studio, follow these steps:
 
 ## Happy Coding! 😎
 
-Feel free to reach out to [Arshad Bhai🧑🏽‍💻](https://github.com/Arshad59) for any specific questions or clarifications. If you have any suggestions or improvements for this repository, don't hesitate to contribute.📱💻
 
   
