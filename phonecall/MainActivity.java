@@ -21,7 +21,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         e1=(EditText)findViewById(R.id.e1);
         b=(Button) findViewById(R.id.button);
-        ActivityCompat.requestPermissions(this,new String[]{Manifest.permission.CALL_PHONE},1);
         b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
