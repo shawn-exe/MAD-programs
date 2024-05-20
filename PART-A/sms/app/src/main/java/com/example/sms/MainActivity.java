@@ -24,20 +24,16 @@ public class MainActivity extends AppCompatActivity {
         ed1=findViewById(R.id.ed1);
         ed2=findViewById(R.id.ed2);
         b=findViewById(R.id.button);
-        b.setOnClickListener(new View.OnClickListener() {
+
+         b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String num=ed1.getText().toString();
+                String ph=ed1.getText().toString();
                 String msg=ed2.getText().toString();
-                try {
-                    SmsManager smsManager= SmsManager.getDefault();
-                    smsManager.sendTextMessage(num,null,msg,null,null);
-                    Toast.makeText(getApplicationContext(),"Message sent",Toast.LENGTH_LONG).show();
-
-                }catch(Exception e)
-                {
-                    Toast.makeText(getApplicationContext(),"Unable to send sms",Toast.LENGTH_LONG).show();
-                }
+                Intent i=new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse("sms:"+ph));
+                i.putExtra("sms_body",msg);
+                startActivity(i);
             }
         });
     }
