@@ -44,7 +44,7 @@ public class MainActivity2 extends AppCompatActivity {
         name1.setText(name);
         email1.setText(email);
         phone1.setText(phone);
-        name1.setText(qual);
+        qual1.setText(qual);
         gender1.setText(gender);
         if(imguri!=null)
         {
